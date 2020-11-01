@@ -20,7 +20,7 @@ git merge
 
 git branch -d/D(未合并强删)
 
-git log --graph --pretty=oneline 
+git log --graph --pretty=oneline --abbrev-commit
 
 git reset --hard HEAD^^^^^^/n~
 
@@ -51,4 +51,20 @@ git branch --set-upstream-to=\<remote\> \<local\>
 git pull
 
 git push
+
+git rebase
+
+git tag (-a)\<name\> (\<commit\>) (-m)
+
+git tag
+
+git show \<tag name\>
+
+git tag -d \<tag name\>
+
+git push origin \<tag name\>
+
+git push origin --tags
+
+git push origin :refs/tags/\<tag name\> (先本地删除)
 
